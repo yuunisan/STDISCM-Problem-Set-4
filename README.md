@@ -12,14 +12,14 @@
   Log into your separate computer or Virtual Machine.
   Navigate to the directory containing the server executable.
   Launch the application:
-    OCRServer.exe
+    **OCRServer.exe**
 
-  Important: Note the IP address of this VM (run ipconfig in the command prompt). You will likely need this to configure the client.
+  Important: Note the IP address of this VM (run ipconfig in the command prompt). 
   Ensure the server indicates it is "Listening" or "Ready".
 
   Step 2: Start the Client (Local Machine)
   On your main computer, navigate to the client folder.
   Launch the application:
-    OCRClient.exe
+    **OCRClient.exe**
 
   If prompted for a destination IP, enter the IP address of the VM from Step 1.
