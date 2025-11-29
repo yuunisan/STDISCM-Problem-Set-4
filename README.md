@@ -1,13 +1,13 @@
-# DistributedOCR
+### DistributedOCR
 
-Prerequisites
+## Prerequisites
   Virtual Machine (VM): Windows VM (or separate physical machine) for the server.
   Host Machine: Your local computer for the client.
   Network: The Host and the VM must be on the same network or able to ping each other.
 
   Note: If using VirtualBox/VMware, ensure the Network Adapter is set to "Bridged Adapter" so they can communicate.
 
-How to Run
+## How to Run
   Step 1: Start the Server (Virtual Machine)
   Log into your separate computer or Virtual Machine.
   Navigate to the directory containing the server executable.
