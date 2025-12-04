@@ -30,6 +30,9 @@ public:
         std::cout << "Server is Processing: " << request->filename() << std::endl;
         auto start = std::chrono::high_resolution_clock::now();
 
+        // sleep/delay since progress is too fast need for demo
+        std::this_thread::sleep_for(std::chrono::milliseconds(2000));
+
         const std::string& imgData = request->image_data();
         if (imgData.empty()) return Status::CANCELLED;
 
